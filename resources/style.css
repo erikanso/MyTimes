@@ -4,23 +4,39 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   border-bottom: 1px solid black;
+  z-index: 5;
 }
 
-/* bottom border extent to edges? */
-
-.image {
-  margin: 10px 10px 10px 20px;
-}
+/* bottom border extend to edges? */
 
 .logo {
+  margin: 10px 10px 10px 20px;
   color: MediumAquamarine;
 }
 
-.header .nav {
-  display: flex;
+.header .menu {
+  display: inline-flex;
+  margin: 30px 30px 30px 10px;
   text-decoration: underline;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  border: 1px solid black;
+}
+
+.column .large {
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
 }
