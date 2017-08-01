@@ -2,7 +2,6 @@
 /* Header */
 
 header {
-  height: auto;
   width: 100%;
   font-family: Verdana;
   font-size: 14px;
@@ -13,7 +12,7 @@ header {
   z-index: 5;
   justify-content: space-between;
   background: white;
-  z-index: 5;
+  position: fixed;
 }
 
 /* bottom border extend to edges? */
@@ -56,19 +55,16 @@ div {
 
 .container {
   display: flex;
-  margin: 20px 20px 20px 0;
-  align-content: center;
+  margin: 40px 30px 0 0;
+  align-content: space-between;
   flex-direction: column;
   float: left;
+  position: relative;
 }
 
 .main-stories {
   width: 630px;
   display: flex;
-}
-
-.headline {
-  background-image: url("../resources/images/main.png")
 }
 
 h1,
@@ -83,16 +79,35 @@ h1 {
   font-size: 40px;
 }
 
+.headline {
+  background-image: url("../resources/images/main.png");
+  display: inline-flex;
+  height: 300px;
+
+}
+
 .photo-story-1 {
-  background-image: url("../resources/images/fall.png")
+  background-image: url("../resources/images/fall.png");
+  height: 300px;
 }
 
 .photo-story-2 {
-  background-image: url("../resources/images/cameraman.png")
+  background-image: url("../resources/images/cameraman.png");
+  height: 300px;
+}
+
+.column-1,
+.column-2 {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
 }
 
 .photo-story-3 {
-  background-image: url("../resources/images/cat.png")
+  background-image: url("../resources/images/cat.png");
+  height: 300px;
 }
 
 .other-stories {
