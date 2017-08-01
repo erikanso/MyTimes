@@ -1,3 +1,5 @@
+/* Header */
+
 .header {
   height: auto;
   width: 100%;
@@ -25,18 +27,28 @@
   justify-content: space-between;
 }
 
+/* Content */
+
 .column {
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px 20px 0;
+  align-content: center;
+   float: left;
 }
 
-.column .large {
+.large {
   width: 630px;
+  display: flex;
 }
 
-.column .medium {
+.medium {
   width: 300px;
+  display: flex;
 }
 
-.column .small {
+.small {
   width: 240px;
+  display: flex;
 }
