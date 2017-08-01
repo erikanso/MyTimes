@@ -83,11 +83,13 @@ h1 {
   background-image: url("../resources/images/main.png");
   display: inline-flex;
   height: 300px;
+  align-items: center;
+  padding-left: 20px;
 
 }
 
 .story {
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 .columns-below {
@@ -99,12 +101,20 @@ h1 {
 .photo-story-1 {
   background-image: url("../resources/images/fall.png");
   height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .photo-story-2 {
   background-image: url("../resources/images/cameraman.png");
   height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
+
+/* Columns below Main Story */
 
 .column-1,
 .column-2 {
@@ -117,6 +127,9 @@ h1 {
 .photo-story-3 {
   background-image: url("../resources/images/cat.png");
   height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .other-stories {
