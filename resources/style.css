@@ -1,18 +1,20 @@
 .header {
-  display: flex;
+  height: auto;
+  width: 100%;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  width: 100%;
+  display: flex;
+  align-items: flex-center;
+  border-bottom: 1px solid black;
 }
 
 .logo {
   color: MediumAquamarine;
-  align-items: flex-start;
 }
 
 .header .nav {
-  justify-items: flex-end;
+  justify-content: flex-end;
   text-decoration: underline;
   flex-wrap: wrap;
 }
