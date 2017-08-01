@@ -5,8 +5,14 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  align-items: flex-center;
+  align-items: center;
   border-bottom: 1px solid black;
+}
+
+/* bottom border extent to edges? */
+
+.image {
+  margin: 10px 10px 10px 20px;
 }
 
 .logo {
@@ -14,7 +20,7 @@
 }
 
 .header .nav {
-  justify-content: flex-end;
+  display: flex;
   text-decoration: underline;
   flex-wrap: wrap;
 }
