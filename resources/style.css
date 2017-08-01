@@ -1,3 +1,4 @@
+
 /* Header */
 
 header {
@@ -23,7 +24,7 @@ header p {
 
 .logo {
   display: inline-flex;
-  margin: 0 10px 0 20px;
+  margin: 0 10px 5px 20px;
   color: MediumAquamarine;
   align-items: center;
 }
@@ -43,8 +44,17 @@ a {
 
 /* Content */
 
-.container {
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+div {
   border: 1px solid black;
+}
+
+.container {
   display: flex;
   margin: 20px 20px 20px 0;
   align-content: center;
@@ -52,17 +62,45 @@ a {
   float: left;
 }
 
-.large {
+.main-stories {
   width: 630px;
   display: flex;
 }
 
-.medium {
+.headline {
+  background-image: url("../resources/images/main.png")
+}
+
+h1,
+h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.photo-story-1 {
+  background-image: url("../resources/images/fall.png")
+}
+
+.photo-story-2 {
+  background-image: url("../resources/images/cameraman.png")
+}
+
+.photo-story-3 {
+  background-image: url("../resources/images/cat.png")
+}
+
+.other-stories {
   width: 300px;
   display: flex;
 }
 
-.small {
+.news-bites{
   width: 240px;
   display: flex;
 }
