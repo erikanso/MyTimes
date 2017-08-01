@@ -43,6 +43,8 @@ a {
   margin: 0 10px;
 }
 
+/* Header */
+
 /* Content */
 
 .content p {
@@ -60,6 +62,10 @@ a {
   position: relative;
   top: 70px;
 }
+
+/* Content */
+
+/* Column 1 */
 
 .main-stories {
   width: 630px;
@@ -113,7 +119,9 @@ h1 {
   text-align: center;
 }
 
-/* Columns below Main Story */
+/* Column 1 */
+
+/* Columns below Column 1 */
 
 .column-1,
 .column-2 {
@@ -122,6 +130,10 @@ h1 {
   flex-direction: column;
   position: relative;
 }
+
+/* Columns below Column 1 */
+
+/* Column 2 */
 
 .photo-story-3 {
   background-image: url("../resources/images/cat.png");
@@ -135,6 +147,10 @@ h1 {
   width: 300px;
   display: flex;
 }
+
+/* Column 2 */
+
+/* Column 3 */
 
 .news-bites {
   width: 240px;
@@ -163,6 +179,8 @@ h4 {
   background-color: WhiteSmoke;
 }
 
+/* Column 3 */
+
 /* Footer */
 
 .footer-logo {
@@ -183,3 +201,5 @@ h4 {
   font-size: 12px;
   padding: 100px;
 }
+
+/* Footer */
