@@ -14,11 +14,10 @@ header {
   background: white;
   position: fixed;
   top: 0;
+  left: 0;
   padding-top: 10px;
   padding-bottom: 5px;
 }
-
-/* bottom border extend to edges? */
 
 header p {
   padding-left: 15px;
