@@ -3,12 +3,16 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
 }
 
 .logo {
   color: MediumAquamarine;
+  align-items: flex-start;
 }
 
-nav {
-
+.header .nav {
+  justify-items: flex-end;
+  text-decoration: underline;
+  flex-wrap: wrap;
 }
