@@ -43,6 +43,10 @@ a {
   margin: 0 10px;
 }
 
+a:hover {
+  color: DimGray;
+}
+
 /* Header */
 
 /* Content */
