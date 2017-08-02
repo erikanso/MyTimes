@@ -47,6 +47,11 @@ a {
 
 /* Content */
 
+.content {
+  display: flex;
+  justify-content: center;
+}
+
 .content p {
   font-family: Georgia;
   font-size: 17px;
